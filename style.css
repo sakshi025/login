@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url(robot-handshake-human-background-futuristic-digital-age.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  color: #565454;
+}
+.container {
+  margin: 0 auto;
+  margin-top: 200px;
+  box-shadow: 0 0 20px 6px #40404185;
+  border-radius: 10px;
+  width: 60%;
+  overflow: hidden;
+  display: flex;
+  flex: 1 1 100%;
+  align-items: stretch;
+  justify-content: space-between;
+  background-color: rgb(255, 253, 253);
+}
+
+.container .left {
+  padding: 30px;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+.container .left h1 {
+  line-height: 1;
+  font-weight: 800;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.container .left p {
+  margin-top: 15px;
+  font-weight: 500;
+  color: #9c9a9a;
+  margin-bottom: 30px;
+}
+.container .left p span {
+  border-bottom: 2px solid #9c9a9a;
+}
+.content {
+  border: 2px solid #d4d1d1;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+}
+.container .left .content p {
+  margin: 0;
+  color: #565454;
+  font-weight: 900;
+}
+.container .left .content input {
+  border: none;
+  outline: none;
+  overflow: hidden;
+  width: 200px;
+}
+.two {
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 35px;
+}
+.two i {
+  color: blue;
+  position: relative;
+  top: 10px;
+  font-size: larger;
+}
+.three h4 {
+  margin-left: 20px;
+  margin-bottom: 0px;
+}
+.two .three p {
+  margin-left: 20px;
+  margin-top: 0;
+}
+.cancel {
+  border: none;
+  color: blue;
+  background-color: white;
+  margin-left: 100px;
+  margin-right: 20px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.cancel:hover {
+  border-radius: 5px;
+  background-color: rgb(196, 196, 221);
+  padding: 10px;
+}
+.Submit {
+  border: none;
+  color: blue;
+  background-color: white;
+}
+.Submit:hover {
+  border-radius: 5px;
+  background-color: rgb(196, 196, 221);
+  padding: 10px;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  border-top: 2px solid #d4d1d1;
+  width: 70%;
+  padding: 10px;
+}
+.fa-phone {
+  position: relative;
+  top: 10px;
+  padding: 10px;
+  margin-left: 20px;
+  color: blue;
+  font-size: larger;
+  border: 1px solid #d4d1d1;
+  border-radius: 50%;
+}
+.right {
+  margin-top: 50px;
+  padding: 30px;
+  width: 50%;
+  height: 180px;
+
+  border-left: 1px solid #d4d1d1;
+}
+.right p {
+  line-height: 1;
+  color: #9c9a9a;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.right .fa {
+  color: blue;
+  font-size: larger;
+  border: 1px solid #d4d1d1;
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.item {
+  display: flex;
+}
+.fa:hover {
+  background-color: #9c9cc785;
+}
+span:hover {
+  color: blue;
+}
