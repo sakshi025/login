@@ -4,12 +4,13 @@
   margin: 0;
 }
 body {
-  background-image: url(robot-handshake-human-background-futuristic-digital-age.jpg);
+  
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 100vh;
   color: #565454;
+   background: linear-gradient(#5b7c99 50%, #fde74c 50%);
 }
 .container {
   margin: 0 auto;
